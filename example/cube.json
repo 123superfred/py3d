@@ -1,9 +1,22 @@
 {
-	"name": "cube",
 	"size": [1, 1, 1],
+	"hitbox-type": "container-box",
 	"point": {
 		"A": [0, 0, 0],
 		"B": [1, 0, 0],
-		
-	}
+		"C": [1, 0, 1],
+		"D": [0, 0, 1],
+		"E": [0, 1, 0],
+		"F": [1, 1, 0],
+		"G": [1, 1, 1],
+		"H": [0, 1, 1]
+	},
+	"face": [
+		{"corner": ["A", "B", "C", "D"], "fill": "ff0000ff"},
+		{"corner": ["A", "B", "E", "F"], "fill": "ff0000ff"},
+		{"corner": ["B", "C", "F", "G"], "fill": "ff0000ff"},
+		{"corner": ["C", "D", "G", "H"], "fill": "ff0000ff"},
+		{"corner": ["D", "A", "H", "E"], "fill": "ff0000ff"},
+		{"corner": ["E", "F", "G", "H"], "fill": "ff0000ff"}
+	]
 }
