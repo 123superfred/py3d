@@ -1,6 +1,9 @@
 {
 	"size": [1, 1, 1],
-	"hitbox-type": "container-box",
+	"material": {
+		"light absorption": 50,
+		"_comment": "maybe other stuff comming"
+	},
 	"point": {
 		"A": [0, 0, 0],
 		"B": [1, 0, 0],
@@ -12,11 +15,11 @@
 		"H": [0, 1, 1]
 	},
 	"face": [
-		{"corner": ["A", "B", "C", "D"], "fill": "ff0000ff"},
-		{"corner": ["A", "B", "E", "F"], "fill": "ff0000ff"},
+		{"corner": ["A", "B", "C", "D"], "fill": "ff00ffff"},
+		{"corner": ["A", "B", "E", "F"], "fill": "ffff00ff"},
 		{"corner": ["B", "C", "F", "G"], "fill": "ff0000ff"},
-		{"corner": ["C", "D", "G", "H"], "fill": "ff0000ff"},
-		{"corner": ["D", "A", "H", "E"], "fill": "ff0000ff"},
-		{"corner": ["E", "F", "G", "H"], "fill": "ff0000ff"}
+		{"corner": ["C", "D", "G", "H"], "fill": "0000ffff"},
+		{"corner": ["D", "A", "H", "E"], "fill": "00ffffff"},
+		{"corner": ["E", "F", "G", "H"], "fill": "00ff00ff"}
 	]
 }
